@@ -1,0 +1,26 @@
+{
+    "name": "3scale-node",
+    "version": "0.0.1",
+    "description": "3Scale API Nodejs module",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --timeout 30000 test/*test.js"
+    },
+    "dependencies": {
+        "libxmljs": "~0.12.0",
+        "qs": "~2.2.4",
+        "debug": "~1.0.2"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "chai": "*",
+        "mocha-nock-fixtures": "~0.1.1",
+        "mkdirp": "0.5.0"
+    },
+    "keywords": [
+        "api",
+        "authorization",
+        "3scale-node",
+        "web"
+    ]
+}
